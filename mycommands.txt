@@ -1,0 +1,16 @@
+  242  cd
+  243  mkdir .ssh
+  244  cd .ssh
+  245  ls
+  246  nano id_rsa.pub
+  247  cat id_rsa.pub
+  248  cd
+  249  ls
+  250  cd AMMI-git
+  251  ls
+  252  nano identity.txt
+  253  git add .
+  254  git status
+  255  git commit -m"My commit for my identity"
+  256  git remote add raissa git@github.com:edwige3/Gtt-assignment.git
+  257  git push -u raissa master
